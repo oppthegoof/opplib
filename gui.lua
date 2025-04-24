@@ -129,6 +129,7 @@ function Root.Window(Title)
 		Btn["a"]["Size"] = UDim2.new(1, 0, 0, 25);
 		Btn["a"]["BackgroundTransparency"] = 1;
 		Btn["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+		Btn["a"]["Text"] = Text
 
 
 		-- StarterGui.opplib.Menu.ScrollingFrame.TextButton.UIStroke
@@ -151,7 +152,7 @@ function Root.Window(Title)
 		Label["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 		Label["c"]["Name"] = [[Label]];
 		Label["c"]["Position"] = UDim2.new(-0, 0, 0, 0);
-
+		Label["c"]["Text"] = Text
 
 		-- StarterGui.opplib.Menu.ScrollingFrame.Label.UIStroke
 		Label["d"] = Instance.new("UIStroke", Label["c"]);
