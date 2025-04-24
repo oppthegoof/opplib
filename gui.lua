@@ -40,6 +40,7 @@ function Root.Window(Title)
 	-- StarterGui.opplib
 	Window["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 	Window["1"]["Name"] = [[opplib]];
+	Window["1"]["ResetOnSpawn"] = false
 	
 
 	-- StarterGui.opplib.Menu
